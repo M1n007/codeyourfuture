@@ -70,15 +70,15 @@ session_start();
 					   </div>
 
 					   <!-- Start Komentar -->
-					   <?php
-					   $postid = $_SESSION['id'];
-					   $quer9 = $sql->query("select * from tbl_komentar where postId='$postid'");
-						     while ($p = mysqli_fetch_array($quer9)) {
-						 ?>
 						<div class="container">
 						  <div class="row">
 						    <div class="col-md-8">
 						      <h2 class="page-header">Comments</h2>
+						<?php
+						   $postid = $_SESSION['id'];
+						   $quer9 = $sql->query("select * from tbl_komentar where postId='$postid'");
+							     while ($p = mysqli_fetch_array($quer9)) {
+						 ?>
 						        <section class="comment-list">
 						          <!-- First Comment -->
 						          <article class="row">
