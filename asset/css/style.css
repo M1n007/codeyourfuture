@@ -1,0 +1,48 @@
+
+/* HEADER --------------------*/
+header, footer {
+    background: #34495e;
+}
+
+.profil {
+    margin: 0px auto;
+    width: auto;
+    padding: auto;
+}
+
+.profil img{
+    float: left;
+    max-width: 128px;
+    max-height: 128px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 20px;
+}
+
+.profil .deskripsi {
+    padding: 20px;
+    color: white;
+}
+
+/* ARTIKEL --------------------*/
+.artikel-kop h2{
+    margin-top: 50px;
+}
+
+p.artikel-penulis {
+    color: rgba(0,0,0,0.4);
+}
+
+.artikel-isi{
+    font-size: 18px;
+    font-family: Georgia, serif;
+    letter-spacing: 0.01rem;
+    line-height: 1.75em;
+    margin-top: 32px;
+}
+
+
+footer {
+    color: white;
+    padding-top: 32px;
+}
